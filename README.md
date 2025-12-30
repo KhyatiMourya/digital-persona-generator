@@ -1,73 +1,44 @@
-<<<<<<< HEAD
-# React + Vite
+# Digital Persona Generator 🎨✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Generate a complete digital persona — palette, moodboard, avatar, bio, and a minimal website — from just 5–6 user answers.
 
-Currently, two official plugins are available:
+This project is currently **under active development**, with a focus on improving UX and frontend polish.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Implemented
+- Multi-step persona wizard
+- Global state management using **Zustand**
+- Avatar generation using **DiceBear API**
+- Aesthetic moodboard generation using **Unsplash API**
+- AI-generated bio & HTML website content (via Groq API)
+- Result preview page
 
-## Expanding the ESLint configuration
+### 🛠️ In Progress
+- Frontend UI/UX enhancements
+- Animations & transitions
+- Responsive design improvements
+- Better visual hierarchy and accessibility
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Digital Persona Generator
+---
 
-Generate a palette, moodboard, avatar, short bio, IG highlight icons, and a single-page personal site from 5–6 answers.
+## 🧑‍💻 Tech Stack
 
-## Features (Planned)
-- Generate a custom color palette
-- Create an aesthetic moodboard (placeholder / mock)
-- Generate avatar using DiceBear
-- Auto-generate a short bio from user answers
-- Generate Instagram highlight icons
-- Generate a minimal personal website layout
+- **Frontend:** React + Vite
+- **State Management:** Zustand
+- **Styling:** CSS / Tailwind (planned)
+- **Avatar API:** DiceBear
+- **Moodboard API:** Unsplash
+- **AI Content:** Groq API
 
-## Quick start (development)
+---
 
-1. Fork and clone:
+## ⚙️ Quick Start (Development)
+
 ```bash
-git clone https://github.com/<your-username>/digital-persona.git
-cd digital-persona
-```
-2. Install dependencies (frontend):
-```bash
-cd web
+git clone https://github.com/<your-username>/digital-persona-generator.git
+cd digital-persona-generator
 npm install
 npm run dev
-```
-
-3. Open `http://localhost:5173`.
-
-## Project Structure
-
-/(root)  
-   &nbsp; README.md
-   &nbsp; CONTRIBUTING.md
-   &nbsp; LICENSE
-   &nbsp; .gitignore
-   &nbsp; /web
-       &nbsp; &nbsp; package.json
-       &nbsp; &nbsp; src/
-   &nbsp; /api
-        &nbsp; &nbsp; generate.js
-   &nbsp; /utils
-   &nbsp; .github/
-        &nbsp; &nbsp; ISSUE_TEMPLATE/
-        &nbsp; &nbsp; PULL_REQUEST_TEMPLATE.md
-
-## How to contribute
-
-See CONTRIBUTING.md for a step-by-step guide for new contributors.
-
-## Tech stack (recommended)
-
-- Frontend: React + Vite + TailwindCSS (optional)
-- API: Node (serverless function stub in /api)
-- Avatar: DiceBear (MVP)
->>>>>>> 33c9f7d62211c4a7ae0dcae018c577618c477775
